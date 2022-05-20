@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - order</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+            margin-bottom: 10px;
+        }
+
+        .align-container{
+            align-items: center;
+            
+        }
+
+        .item{
+            background-color: blueviolet;
+            flex: 1;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            margin: 5px;
+        }
+
+        .center{
+            align-self: center;
+        }
+        .baseline{
+            align-self: baseline;
+        }
+        
+        .start{
+            align-self: start;
+        }
+
+        .end{
+            align-self: end;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+        .column{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1>row</h1>
+        <p>align-self: center</p>
+    <div class="container align-container">
+        <div class="item auto">AA</div>
+        <div class="item stretch">123</div>
+        <div class="item start">o rato roeu a roupa</div>
+        <div class="item end">qwerty</div>
+        <div class="item center">69</div>
+        <div class="item baseline">74169</div>
+    </div>
+
+    <p>align-self: auto</p>
+<div class="container">
+    <div class="item auto">AA</div>
+    <div class="item stretch">123</div>
+    <div class="item start">o rato roeu a roupa</div>
+    <div class="item end">qwerty</div>
+    <div class="item center">69</div>
+    <div class="item baseline">74169</div>
+</div>
+    <h1>row</h1>
+        <p>align-self: center</p>
+    <div class="container align-container">
+        <div class="item auto">AA</div>
+        <div class="item stretch">123</div>
+        <div class="item start">o rato roeu a roupa</div>
+        <div class="item end">qwerty</div>
+        <div class="item center">69</div>
+        <div class="item baseline">74169</div>
+    </div>
+
+    <p>align-self: auto</p>
+<div class="container">
+    <div class="item auto">AA</div>
+    <div class="item stretch">123</div>
+    <div class="item start">o rato roeu a roupa</div>
+    <div class="item end">qwerty</div>
+    <div class="item center">69</div>
+    <div class="item baseline">74169</div>
+</div>
+    <h1>row</h1>
+        <p>align-self: center</p>
+    <div class="container align-container">
+        <div class="item auto">AA</div>
+        <div class="item stretch">123</div>
+        <div class="item start">o rato roeu a roupa</div>
+        <div class="item end">qwerty</div>
+        <div class="item center">69</div>
+        <div class="item baseline">74169</div>
+    </div>
+
+    <p>align-self: auto</p>
+<div class="container">
+    <div class="item auto">AA</div>
+    <div class="item stretch">123</div>
+    <div class="item start">o rato roeu a roupa</div>
+    <div class="item end">qwerty</div>
+    <div class="item center">69</div>
+    <div class="item baseline">74169</div>
+</div>
+
+
+<h1>column</h1>
+    <p>align-self: center</p>
+        <div class="container align-container column">
+            <div class="item auto">AA</div>
+            <div class="item stretch">123</div>
+            <div class="item start">o rato roeu a roupa</div>
+            <div class="item end">qwerty</div>
+            <div class="item center">69</div>
+            <div class="item baseline">74169</div>
+        </div>
+
+    <p>align-self: auto</p>
+        <div class="container column">
+            <div class="item auto">AA</div>
+            <div class="item stretch">123</div>
+            <div class="item start">o rato roeu a roupa</           div>
+            <div class="item end">qwerty</div>
+            <div class="item center">69</div>
+            <div class="item baseline">74169</div>
+        </div>
+</body>
+</html>
