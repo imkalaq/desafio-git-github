@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.instagram-column{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-mockup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-mockup img{
+    height: 42rem;
+}
+
+.instagram-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    flex-wrap: wrap;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.profile-picture{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-picture img{
+    height: 6rem;
+}
+
+.insta-login{
+    background-color: #0095F6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.insta-logout{
+    color: #0095F6;
+    margin-top: 0.2rem;
+}
+
+.not-account{
+    color: #A0A0A0;
+
+}
+
+.link-blue{
+    color: #0095F6;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.button-costumize{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.link-download{
+    height: 3rem;
+    width: 10rem;
+    background-color: cover;
+}
+
+.link-download:nth-child(1) {
+    background-image: url('./images/04-button-apple-store.png');
+}
+
+.link-download:nth-child(2) {
+    background-image: url('./images/03-button-play-store.png');
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+    .instagram-column {
+      width: 90%;  
+    }   
+} 
+
+@media (max-width: 650px) {
+
+    body{
+        background-color: #ffffff;
+    }
+    .instagram-column{
+        width: 90%;
+    }
+    
+    .instagram-mockup{
+        display: none;
+    }
+    
+    .instagram-login{
+        max-width: 100%;
+    }
+}
