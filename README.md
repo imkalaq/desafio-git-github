@@ -1,3 +1,3 @@
-# Pastas com os desafios dos cursos que faço na DIO
+# Desafio Git/GitHub para a dio
 
-Os arquivos que estão nesse repositório fazem parte dos desafios do bootcamp da spread. 
+Os arquivos que estão nesse repositório fazem parte do desafio Git/GitHub do bootcamp da spread. 
